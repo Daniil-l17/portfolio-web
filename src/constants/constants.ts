@@ -19,3 +19,31 @@ export const technologiesArray = [
 	{ img: '/vite.svg', title: 'Vite',link: 'https://vitejs.dev/' },
 	{ img: '/seal-color.png', title: 'scss', link: 'https://sass-scss.ru/' }
 ];
+
+export const contactsArray = [
+	{
+		title: 'Telegram',
+		color: '#a7c3d2',
+		img: '/telegram.svg',
+		link: 'https://t.me/daniaaa1717'
+	},
+	{
+		title: 'Discord',
+		color: '#b9bdd9',
+		img: '/Discord.svg',
+		link: 'https://discord.com/drain1717'
+	},
+	{
+		title: 'GitHub',
+		color: '#8b8b8b',
+		img: '/GitHub.svg',
+		link: 'https://github.com/Daniil-l17'
+	},
+	{
+		title: 'CodeWars',
+		color: '#a17171',
+		img: '/5387632.png',
+		link: 'https://www.codewars.com/users/Daniil-l17'
+	}
+];
+
