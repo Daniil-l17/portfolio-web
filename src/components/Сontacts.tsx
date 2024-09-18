@@ -3,10 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const Сontacts = () => {
-	const responce = ''.split('');
 	return (
 		<div id='contacts' className=' h-[100vh] pt-[57px] snap-end'>
-			<div className='flex px-3 h-full max-[600px]:justify-center max-[600px]:mt-0  flex-col mt-16 items-center gap-12 '>
+			<div className='flex px-3 h-full flex-col mt-16 items-center gap-12 '>
 				{contactsArray.map((item, key) => {
 					return (
 						<Link
