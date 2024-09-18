@@ -8,10 +8,15 @@ import { useEffect, useState } from 'react';
 
 export const Home = () => {
 	const [loading, setLoading] = useState(true);
+  
 	useEffect(() => {
 		setLoading(false);
 	}, []);
+
+  
+
 	if (loading) return <Loader />;
+
 	return (
 		<>
 			<Greetings />
