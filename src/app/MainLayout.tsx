@@ -5,8 +5,8 @@ export const MainLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<>
 			<Header />
-			<Blur left='95px' bottom='311px' color='rgba(236, 236, 236, 0.751)' />
-			<Blur right='145px' bottom='611px' color='rgba(221, 221, 221, 0.759)' />
+			<Blur left='145px' bottom='311px' color='rgba(236, 236, 236, 0.751)' />
+			<Blur right='185px' bottom='611px' color='rgba(221, 221, 221, 0.759)' />
 			<div className=' min-h-[100vh]'>{children}</div>
 		</>
 	);
