@@ -13,10 +13,9 @@ export const Greetings = () => {
 				<div className='flex items-start gap-4 mt-4 '>
 					<a
 						className='font-medium px-4 py-[8px] hover:scale-105 transition-all duration-300 rounded-[6px] text-white bg-[#5858588b]'
-						download={true}
-						href='./Лукьянов Даниил Витальевич (1).doc'
+						href='https://hh.ru/resume/71080242ff0ce70c0c0039ed1f535972533641c'
 					>
-						Скачать резюме
+						посмотреть резюме
 					</a>
 				</div>
 			</div>
